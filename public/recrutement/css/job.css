@@ -1,0 +1,340 @@
+
+.job-list {
+    margin: 20px 0;
+  }
+  
+  .job-list-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .job-list-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .job-list-item-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .job-list-item-description {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .job-list-item-actions {
+    text-align: right;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #0062cc;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .pagination li a {
+    margin: 0 5px;
+  }
+
+  /*    */
+
+  .services-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .service {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .service:hover {
+    transform: scale(1.05);
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .service h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* */
+
+  #secteurs-activites {
+    background-color: #f6f6f6;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  #secteurs-activites h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .secteurs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .secteur {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+  }
+  
+  .secteur img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease;
+  }
+  
+  .secteur:hover img {
+    transform: scale(1.1);
+  }
+  
+  .secteur h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(0,0,0,.6);
+    transition: transform .3s ease;
+    transform: translateY(100%);
+  }
+  
+  .secteur:hover h3 {
+    transform: translateY(0);
+  }
+
+  /*   */
+  #secteurs-activites {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .secteurs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .secteur {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    font-size: 21px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .secteur {
+      width: 100%;
+    }
+  }
+  
+  
+ 
+  
+  /*  */
+
+ /* Style pour la div du carousel */
+.partner-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style pour chaque slide du carousel */
+.partner-slide {
+  margin: 0 20px;
+}
+
+/* Style pour l'image dans chaque slide du carousel */
+.partner-slide img {
+  max-width: 100%;
+  height: auto;
+}
+/* */
+/* Style pour la section d'avantages */
+
+.advantages-section {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+.advantages-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Style pour chaque avantage */
+
+.advantage-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.advantage-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fa {
+  font-size: 60px;
+  color:blue;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.advantage-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color:#333;
+
+}
+
+.advantage-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555;
+}
+
+/*   */
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.job-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+}
+
+.logo img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.no-logo {
+  font-style: italic;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold; /* Ajout de la propriété font-weight */
+  color: black; /* Ajout de la couleur noire */
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.apply-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 40px;
+}
